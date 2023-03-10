@@ -59,6 +59,7 @@ a{
     display:flex;
     flex-direction: column;
     margin:5rem;
+    margin-left:3rem;
     width:50%;
     flex:1;
     
