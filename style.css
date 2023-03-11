@@ -79,7 +79,18 @@ a{
     display:flex;
 }
 
+.btn {
+    margin-top:8px;
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    background-color: #2196F3;
+    width:25%;
+    border-radius:8px;
+}
 
+.btn:hover{background: #0b7dda;}
 
 .pic{
     display:flex;
