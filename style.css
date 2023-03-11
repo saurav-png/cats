@@ -80,6 +80,8 @@ a{
 }
 
 .btn {
+    display:flex;
+    justify-content: center;
     margin-top:8px;
     border: none; /* Remove borders */
     color: white; /* Add a text color */
