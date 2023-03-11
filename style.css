@@ -197,22 +197,27 @@ a{
     display:flex;
     justify-content: center;
     align-items: center;
-    padding:2rem;
+    padding:2rem 8rem;
     height: 20rem;
 }
 
 .call-to-action .box{
     background: #3882F6;
-    padding: 10px;
-    width: 70%;
-    height: 10rem;
+    padding: 10px 6rem;
     color:#ffffff;
+    height:70%;
     display:flex;
-    justify-content: space-around;
+    flex:1 0.5 auto;
     align-items: center;
     text-align: left;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgb(19, 166, 235, 0.5), 0 6px 20px 0 rgba(19, 166, 235, 0.19);
+}
+
+.left{
+    display:flex;
+    flex-direction:column;
+    padding:0 7rem 0 0;
 }
 
 .left .section-1{
