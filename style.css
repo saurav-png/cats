@@ -65,7 +65,7 @@ a{
     
 }
 
-.title{
+.text .title{
     font-size: 48px;
     color:#F9FAF8;
     font-weight:bolder;
@@ -78,6 +78,8 @@ a{
     font-size:18px;
     display:flex;
 }
+
+
 
 .pic{
     display:flex;
@@ -92,4 +94,57 @@ a{
     border-radius: 5%;
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
 
+}
+
+.bottom{
+    display:flex;
+    flex-direction:column;
+    background-color: bisque;
+}
+
+.bottom .title{
+    font-size:36px;
+    color:#1F2937;
+    font-weight: 900;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    text-align:center;
+}
+
+
+.info img{
+    width: 150px;
+    height: 120px;
+    border-radius: 20%;
+    border:rgb(135, 206, 235) solid;
+    box-shadow:0 4px 8px rgba(135, 206, 235, 0.5);
+    margin-bottom:1.5rem;
+    align-self: center;
+    display:flex;
+    margin-bottom:5px;
+    margin-top:5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.facts{
+    display:flex;
+    justify-content: center;
+    gap: 52px;
+    flex-wrap: wrap;
+}
+
+.info{
+    max-width: 220px;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5%;
+    background-color: antiquewhite;
+}
+
+.info .detail{
+    display:flex;
+    align-self:center;
+    text-align:center;
+    margin:5px;
 }
