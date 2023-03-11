@@ -85,7 +85,7 @@ a{
     color: white; /* Add a text color */
     padding: 14px 28px; /* Add some padding */
     cursor: pointer; /* Add a pointer cursor on mouse-over */
-    background-color: #2196F3;
+    background-color: #3882F6;
     width:25%;
     border-radius:8px;
 }
@@ -189,3 +189,4 @@ a{
     color:#1F2937;
     margin-bottom: 2rem;
 }
+
