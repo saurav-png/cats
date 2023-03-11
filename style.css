@@ -169,6 +169,7 @@ a{
     justify-content: center;
     align-items: center;
     padding:12px;
+    height: 20rem;
 }
 
 .bottom .quote{
@@ -190,3 +191,57 @@ a{
     margin-bottom: 2rem;
 }
 
+.call-to-action{
+    background:bisque;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:2rem;
+    height: 20rem;
+}
+
+.call-to-action .box{
+    background: #3882F6;
+    padding: 10px;
+    width: 70%;
+    height: 10rem;
+    color:#ffffff;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgb(19, 166, 235, 0.5), 0 6px 20px 0 rgba(19, 166, 235, 0.19);
+}
+
+.left .section-1{
+    font-size: 28px;
+}
+
+.left .section-2{
+    font-size:18px;
+}
+
+.box .left{
+    margin:4px;
+}
+
+.box .right{
+    display:flex;
+    align-items: center;
+    padding:0 10px;
+}
+
+.btn-2 {
+    margin-top:8px;
+    border: white solid;
+    color: white;
+    padding: 10px 28px;
+    cursor:pointer;
+    background-color: #3882F6;
+    /* width:25%; */
+    height:50%;
+    border-radius:8px;
+}
+
+.btn-2:hover{background: #0b7dda;}
