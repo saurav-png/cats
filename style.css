@@ -210,6 +210,7 @@ a{
     height:70%;
     display:flex;
     flex:1 0.5 auto;
+    justify-content:space-around;
     align-items: center;
     text-align: left;
     border-radius: 8px;
@@ -237,7 +238,6 @@ a{
 .box .right{
     display:flex;
     align-items: center;
-    padding:0 10px;
 }
 
 .btn-2 {
