@@ -143,6 +143,7 @@ a{
     justify-content: center;
     gap: 52px;
     flex-wrap: wrap;
+    margin-bottom: 15px;
 }
 
 .info{
@@ -158,4 +159,32 @@ a{
     align-self:center;
     text-align:center;
     margin:5px;
+}
+
+.bottom{
+    background:#E5E7EB;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:12px;
+}
+
+.bottom .quote{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:36px;
+    font-style: italic;
+    color:#1F2937;
+    align-items: center;
+    width:60%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.bottom .told-by{
+    padding-right:10rem;
+    align-self: flex-end;
+    font-size:20px;
+    color:#1F2937;
+    margin-bottom: 2rem;
 }
